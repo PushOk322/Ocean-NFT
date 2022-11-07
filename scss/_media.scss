@@ -1007,7 +1007,7 @@
     .discover {
         flex-direction: column;
         align-items: center;
-        margin: 65px 0 0 25px;
+        margin: 65px 0 0 20px;
 
         &__introduce {
             margin: 0 19px 0 0px;
@@ -1093,7 +1093,7 @@
         }
 
         &__counts {
-            max-width: 390px;
+            width: 320px;
             margin: 39px 0 0 -8px;
             display: flex;
             align-items: center;
@@ -1150,7 +1150,7 @@
         &__img {
             background: url(../img/cyber_angel-responsive.png);
             border-radius: 15px;
-            margin: -10px 0 0 -85px;
+            margin: -10px 0 0 -75px;
             width: 335px;
             height: 385.4px;
             filter: drop-shadow(0px 4.42184px 4.42184px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4.42184px 4.42184px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4.42184px 4.42184px rgba(0, 0, 0, 0.25));
@@ -1162,7 +1162,7 @@
             width: 324px;
             height: 174.79px;
             bottom: -120px;
-            left: -80px;
+            left: -70px;
 
             &__title {
                 font-size: 17.0526px;
@@ -1465,7 +1465,7 @@
             margin: 0 16px 16px 0;
             color: $color-purple;
             width: 155px;
-            height: 43px;
+            height: 45px;
             border: 2px solid;
             border-image: linear-gradient(272.52deg, rgba(255, 166, 250, 0.3) 47.49%, rgba(60, 121, 213, 0.3) 98.81%) 1;
         }
@@ -1492,7 +1492,7 @@
 
         &__view-all {
             float: right;
-            margin: 3px 13px 0 0;
+            margin: -5px 13px 0 0;
             font-size: 8.24417px;
         }
 
@@ -1505,7 +1505,7 @@
         &__girl {
             position: relative;
             left: -5px;
-            bottom: -5px;
+            bottom: -3px;
             width: 185px;
             height: 347px;
         }
@@ -1614,8 +1614,8 @@
         height: 391px;
         border: 2.88px solid;
         border-image: linear-gradient(145.77deg, rgba(255, 255, 255, 0.28) 0%, rgba(255, 255, 255, 0) 105.76%) 1;
-        background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) -1.52%, rgba(255, 255, 255, 0.024) 104.35%);
-        backdrop-filter: blur(30px);
+        background: transparent;
+        backdrop-filter: blur(60%);
 
         &__background {
             width: 298.51px;

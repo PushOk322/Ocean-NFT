@@ -287,7 +287,7 @@ body {
   height: 28px;
 }
 .header__name {
-  margin: 0 0 0 -2px;
+  margin: 3px 0 0 -2px;
 }
 .header__white-text {
   color: #FFF;
@@ -459,7 +459,7 @@ body {
   margin: 65px 0 0 -5px;
 }
 .discover__counts-container {
-  margin: 0 -12px 0 5px;
+  margin: 0 -17px 0 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1067,7 +1067,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 178px 0 0 0;
+  margin: 177px 0 0 0;
 }
 .explore-types__main {
   margin: 0px 130px 0 0;
@@ -1081,7 +1081,7 @@ body {
   margin: 20px 0 0 2px;
 }
 .explore-types__container {
-  margin: 47px 0 0 0;
+  margin: 45px 0 0 0;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
@@ -1123,13 +1123,13 @@ body {
 }
 .explore-types__button {
   position: relative;
-  margin: 0 35px 40px 0;
+  margin: 0 35px 35px 0;
   font-family: "Orbitron";
   letter-spacing: 0.2px;
   font-weight: 700;
   font-size: 26.531px;
   color: rgba(255, 255, 255, 0.6);
-  width: 375px;
+  width: 373px;
   height: 105px;
   background: transparent;
   border: 3px solid;
@@ -1175,7 +1175,7 @@ body {
           mask-composite: exclude;
 }
 .explore-types__view-all {
-  margin: 0px 39px 0 0;
+  margin: -5px 39px 0 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1229,6 +1229,8 @@ body {
   margin: 2px 0 50px 0;
 }
 .explore-socials__title {
+  word-spacing: 2px;
+  letter-spacing: 0px;
   font-family: "Orbitron";
   font-weight: 700;
   font-size: 26.531px;
@@ -1490,8 +1492,9 @@ body {
           align-items: center;
 }
 .top-sellers__title {
-  letter-spacing: 0.7px;
-  margin: -2px 0 0 10px;
+  word-spacing: 2px;
+  letter-spacing: 0px;
+  margin: -2px 0 0 15px;
   font-family: "Orbitron";
   font-weight: 700;
   font-size: 26.531px;
@@ -1778,17 +1781,16 @@ body {
 }
 .what-are-nft__title {
   margin: 60px 0 0 74px;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
+  word-spacing: 0px;
   font-family: "Inter";
-  -webkit-font-feature-settings: "salt" on, "liga" off;
-          font-feature-settings: "salt" on, "liga" off;
-  font-weight: 800;
+  font-weight: 900;
   font-size: 44px;
 }
 .what-are-nft__text {
   word-spacing: -2.5px;
   margin: 22px 0 0 71.2px;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.4px;
   width: 458.45px;
   font-family: "Inter";
   font-weight: 400;
@@ -1882,15 +1884,15 @@ body {
           font-feature-settings: "salt" on, "liga" off;
 }
 .subscribe__text {
-  word-spacing: 1px;
-  letter-spacing: 0px;
+  word-spacing: 0.32px;
+  letter-spacing: 0.1px;
   margin: 28px 0 0 0;
   max-width: 490.82px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 19.8983px;
-  line-height: 34px;
+  line-height: 36px;
 }
 .subscribe__form {
   margin: 50px 0 0 0;
@@ -1972,7 +1974,7 @@ body {
 
 .line-underfooter {
   float: left;
-  margin: 80px 0 0 -90px;
+  margin: 84px 0 0 -90px;
   height: 1px;
   width: 100%;
   max-width: 1338.71px;
@@ -2002,7 +2004,7 @@ body {
           flex-direction: column;
 }
 .footer__title {
-  margin: 1px 0 0 0;
+  margin: 0px 0 0 -2px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2025,14 +2027,14 @@ body {
 .footer__text {
   word-spacing: 0.5px;
   width: 281px;
-  margin: 31px 0 0 0;
+  margin: 31px 0 0 -2px;
   font-family: "Inter";
   font-weight: 400;
   font-size: 15.4764px;
   line-height: 27px;
 }
 .footer__buttons {
-  margin: 26.5px 0 0 0;
+  margin: 26.5px 0 0 -2px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2071,7 +2073,7 @@ body {
           flex-direction: row;
 }
 .footer__block {
-  margin: 0 33px 0 0;
+  margin: 0 34px 0 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2089,7 +2091,7 @@ body {
 }
 .footer__panel-heading {
   margin: 0 0 4.2px 0;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.4px;
   font-family: "Inter";
   font-weight: 500;
   font-size: 19.8983px;
@@ -2110,7 +2112,7 @@ body {
   font-family: "Inter";
   font-weight: 400;
   font-size: 15.4764px;
-  line-height: 27px;
+  line-height: 26px;
 }
 .footer__new {
   height: 10px;
@@ -2137,7 +2139,7 @@ body {
   color: #FFF;
 }
 .underfooter__copyright {
-  margin-left: -3px;
+  margin: 3px 0 0 -4px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -2145,7 +2147,7 @@ body {
   line-height: 27px;
 }
 .underfooter__buttons {
-  margin: 0 55px 0 0;
+  margin: -3px 55px 0 0;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -2154,7 +2156,7 @@ body {
           align-items: center;
 }
 .underfooter__button {
-  letter-spacing: 0.5px;
+  letter-spacing: 0.3px;
   color: white;
   font-family: "Inter";
   font-weight: 400;
@@ -2162,7 +2164,7 @@ body {
   background: transparent;
 }
 .underfooter__line {
-  margin: 0 8px;
+  margin: 0 10px;
   height: 20px;
   border-left: #D9DBE1 solid 1px;
 }
@@ -3223,7 +3225,7 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin: 65px 0 0 25px;
+    margin: 65px 0 0 20px;
   }
   .discover__introduce {
     margin: 0 19px 0 0px;
@@ -3301,7 +3303,7 @@ body {
     height: 8.26px;
   }
   .discover__counts {
-    max-width: 390px;
+    width: 320px;
     margin: 39px 0 0 -8px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3355,7 +3357,7 @@ body {
   .discover__img {
     background: url(../img/cyber_angel-responsive.png);
     border-radius: 15px;
-    margin: -10px 0 0 -85px;
+    margin: -10px 0 0 -75px;
     width: 335px;
     height: 385.4px;
     -webkit-filter: drop-shadow(0px 4.42184px 4.42184px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4.42184px 4.42184px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4.42184px 4.42184px rgba(0, 0, 0, 0.25));
@@ -3366,7 +3368,7 @@ body {
     width: 324px;
     height: 174.79px;
     bottom: -120px;
-    left: -80px;
+    left: -70px;
   }
   .discover .card__title {
     font-size: 17.0526px;
@@ -3679,7 +3681,7 @@ body {
     margin: 0 16px 16px 0;
     color: rgba(255, 255, 255, 0.6);
     width: 155px;
-    height: 43px;
+    height: 45px;
     border: 2px solid;
     -o-border-image: linear-gradient(272.52deg, rgba(255, 166, 250, 0.3) 47.49%, rgba(60, 121, 213, 0.3) 98.81%) 1;
        border-image: linear-gradient(272.52deg, rgba(255, 166, 250, 0.3) 47.49%, rgba(60, 121, 213, 0.3) 98.81%) 1;
@@ -3705,7 +3707,7 @@ body {
   }
   .explore-types__view-all {
     float: right;
-    margin: 3px 13px 0 0;
+    margin: -5px 13px 0 0;
     font-size: 8.24417px;
   }
   .explore-types__arrow {
@@ -3716,7 +3718,7 @@ body {
   .explore-types__girl {
     position: relative;
     left: -5px;
-    bottom: -5px;
+    bottom: -3px;
     width: 185px;
     height: 347px;
   }
@@ -3820,10 +3822,9 @@ body {
     border: 2.88px solid;
     -o-border-image: linear-gradient(145.77deg, rgba(255, 255, 255, 0.28) 0%, rgba(255, 255, 255, 0) 105.76%) 1;
        border-image: linear-gradient(145.77deg, rgba(255, 255, 255, 0.28) 0%, rgba(255, 255, 255, 0) 105.76%) 1;
-    background: -webkit-gradient(linear, left top, right top, color-stop(-1.52%, rgba(255, 255, 255, 0.1)), color-stop(104.35%, rgba(255, 255, 255, 0.024)));
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) -1.52%, rgba(255, 255, 255, 0.024) 104.35%);
-    -webkit-backdrop-filter: blur(30px);
-            backdrop-filter: blur(30px);
+    background: transparent;
+    -webkit-backdrop-filter: blur(60%);
+            backdrop-filter: blur(60%);
   }
   .explore-socials-card__background {
     width: 298.51px;

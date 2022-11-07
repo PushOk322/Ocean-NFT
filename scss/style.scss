@@ -2,28 +2,28 @@
 
 @font-face {
     font-family: Lato;
-    src: url(/fonts/Lato-Bold.ttf);
+    src: url(fonts/Lato-Bold.ttf);
 }
 
 @font-face {
     font-family: Inter;
-    src: url(/fonts/Inter-VariableFont_slnt,wght.ttf);
+    src: url(fonts/Inter-VariableFont_slnt,wght.ttf);
 }
 
 @font-face {
     font-family: 'Alethia Next';
-    src: url(/fonts/AlethiaNext-Light.ttf);
+    src: url(fonts/AlethiaNext-Light.ttf);
 }
 
 @font-face {
     font-family: Aldrich;
-    src: url(/fonts/Aldrich-Regular.ttf);
+    src: url(fonts/Aldrich-Regular.ttf);
 }
 
 @font-face {
     font-family: 'Spartan';
-    src: url('/fonts/Spartan-SemiBold.woff2') format('woff2'),
-        url('/fonts/Spartan-SemiBold.woff') format('woff');
+    src: url(' fonts/Spartan-SemiBold.woff2') format('woff2'),
+        url(' fonts/Spartan-SemiBold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -31,42 +31,42 @@
 
 @font-face {
     font-family: Orbitron;
-    src: url(/fonts/Orbitron-VariableFont_wght.ttf);
+    src: url(fonts/Orbitron-VariableFont_wght.ttf);
 }
 
 @font-face {
     font-family: Rajdhani-Bold;
-    src: url(/fonts/Rajdhani-Bold.ttf);
+    src: url(fonts/Rajdhani-Bold.ttf);
 }
 
 @font-face {
     font-family: Rajdhani-Light;
-    src: url(/fonts/Rajdhani-Light.ttf);
+    src: url(fonts/Rajdhani-Light.ttf);
 }
 
 @font-face {
     font-family: Rajdhani-Medium;
-    src: url(/fonts/Rajdhani-Medium.ttf);
+    src: url(fonts/Rajdhani-Medium.ttf);
 }
 
 @font-face {
     font-family: Rajdhani-Regular;
-    src: url(/fonts/Rajdhani-Regular.ttf);
+    src: url(fonts/Rajdhani-Regular.ttf);
 }
 
 @font-face {
     font-family: Rajdhani-SemiBold;
-    src: url(/fonts/Rajdhani-SemiBold.ttf);
+    src: url(fonts/Rajdhani-SemiBold.ttf);
 }
 
 @font-face {
     font-family: Roboto;
-    src: url(/fonts/RobotoFlex-VariableFont_GRAD\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght.ttf);
+    src: url(fonts/RobotoFlex-VariableFont_GRAD\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght.ttf);
 }
 
 @font-face {
     font-family: Museo;
-    src: url(/fonts/MuseoModerno-VariableFont_wght.ttf);
+    src: url(fonts/MuseoModerno-VariableFont_wght.ttf);
 }
 
 //#######RESETTING STYLES########
@@ -231,7 +231,7 @@ body {
     width: 100%;
     min-width: 0;
     background-size: cover;
-    background: url(../img/Full_page_background_image.png) 0px 0px/cover no-repeat;
+    background: url(img/Full_page_background_image.png) 0px 0px/cover no-repeat;
     font-size: 100%;
 }
 
@@ -290,7 +290,7 @@ body {
     }
 
     &__name {
-        margin: 0 0 0 -2px;
+        margin: 3px 0 0 -2px;
     }
 
     &__white-text {
@@ -460,7 +460,7 @@ body {
     }
 
     &__counts-container {
-        margin: 0 -12px 0 5px;
+        margin: 0 -17px 0 5px;
         display: flex;
         flex-direction: column;
     }
@@ -498,7 +498,7 @@ body {
     }
 
     &__img {
-        background: url(../img/cyber_angel.png);
+        background: url(img/cyber_angel.png);
         border-radius: 15px;
         margin: 17px 0 0 -10px;
         width: 400px;
@@ -519,7 +519,7 @@ body {
         flex-direction: column;
         width: 336px;
         height: 180px;
-        background: url(../img/card_background.png);
+        background: url(img/card_background.png);
 
         //*************CARD_TOP********(START)*******
         &__top {
@@ -1048,7 +1048,7 @@ body {
 .explore-types {
     display: flex;
     justify-content: space-between;
-    margin: 178px 0 0 0;
+    margin: 177px 0 0 0;
 
     &__main {
         margin: 0px 130px 0 0;
@@ -1064,7 +1064,7 @@ body {
     }
 
     &__container {
-        margin: 47px 0 0 0;
+        margin: 45px 0 0 0;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -1072,13 +1072,13 @@ body {
 
     &__button {
         position: relative;
-        margin: 0 35px 40px 0;
+        margin: 0 35px 35px 0;
         font-family: 'Orbitron';
         letter-spacing: 0.2px;
         font-weight: 700;
         font-size: 26.531px;
         color: $color-purple;
-        width: 375px;
+        width: 373px;
         height: 105px;
         background: transparent;
         border: 3px solid;
@@ -1115,7 +1115,7 @@ body {
     }
 
     &__view-all {
-        margin: 0px 39px 0 0;
+        margin: -5px 39px 0 0;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1163,6 +1163,8 @@ body {
     }
 
     &__title {
+        word-spacing: 2px;
+        letter-spacing: 0px;
         font-family: 'Orbitron';
         font-weight: 700;
         font-size: 26.531px;
@@ -1392,8 +1394,9 @@ body {
     align-items: center;
 
     &__title {
-        letter-spacing: 0.7px;
-        margin: -2px 0 0 10px;
+        word-spacing: 2px;
+        letter-spacing: 0px;
+        margin: -2px 0 0 15px;
         font-family: 'Orbitron';
         font-weight: 700;
         font-size: 26.531px;
@@ -1488,7 +1491,7 @@ body {
     justify-content: space-between;
     width: 437.04px;
     height: 123.81px;
-    background: url(../img/top-sellers-card-background.svg);
+    background: url(img/top-sellers-card-background.svg);
 
     &__container {
         display: flex;
@@ -1550,16 +1553,17 @@ body {
         color: #FF0000;
         width: 100.6px;
         height: 36px;
-        background-image: url(../img/button-red.svg);
+        background-image: url(img/button-red.svg);
     }
 
     &__button.green {
         color: #00FF66;
-        background-image: url(../img/button-green.svg);
+        background-image: url(img/button-green.svg);
     }
 
     &__button-text {
-        padding-left: 5px;;
+        padding-left: 5px;
+        ;
     }
 }
 
@@ -1637,27 +1641,27 @@ body {
         position: absolute;
         display: flex;
         flex-direction: column;
-        ;
         top: 216px;
         left: 884px;
-        background: url(../img/what-are-nft-card.png);
+        background: url(img/what-are-nft-card.png);
         width: 577.05px;
         height: 473.14px;
     }
 
     &__title {
         margin: 60px 0 0 74px;
-        letter-spacing: 1px;
+        letter-spacing: 1.5px;
+        word-spacing: 0px;
         font-family: 'Inter';
-        font-feature-settings: 'salt' on, 'liga' off;
-        font-weight: 800;
+        // font-feature-settings: 'salt' on, 'liga' off;
+        font-weight: 900;
         font-size: 44px;
     }
 
     &__text {
         word-spacing: -2.5px;
         margin: 22px 0 0 71.2px;
-        letter-spacing: 0.3px;
+        letter-spacing: 0.4px;
         width: 458.45px;
         font-family: 'Inter';
         font-weight: 400;
@@ -1735,15 +1739,15 @@ body {
     }
 
     &__text {
-        word-spacing: 1px;
-        letter-spacing: 0px;
+        word-spacing: 0.32px;
+        letter-spacing: 0.1px;
         margin: 28px 0 0 0;
         max-width: 490.82px;
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
         font-size: 19.8983px;
-        line-height: 34px;
+        line-height: 36px;
     }
 
     &__form {
@@ -1815,7 +1819,7 @@ body {
 
 .line-underfooter {
     float: left;
-    margin: 80px 0 0 -90px;
+    margin: 84px 0 0 -90px;
     height: 1px;
     width: 100%;
     max-width: 1338.71px;
@@ -1836,12 +1840,12 @@ body {
     }
 
     &__title {
-        margin: 1px 0 0 0;
+        margin: 0px 0 0 -2px;
         display: flex;
         flex-direction: row;
     }
 
-    &__title-text{
+    &__title-text {
         margin: 4px 0 0 5px;
         font-family: 'Orbitron';
         font-weight: 700;
@@ -1857,7 +1861,7 @@ body {
     &__text {
         word-spacing: 0.5px;
         width: 281px;
-        margin: 31px 0 0 0;
+        margin: 31px 0 0 -2px;
         font-family: 'Inter';
         font-weight: 400;
         font-size: 15.4764px;
@@ -1865,7 +1869,7 @@ body {
     }
 
     &__buttons {
-        margin: 26.5px 0 0 0;
+        margin: 26.5px 0 0 -2px;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -1882,9 +1886,7 @@ body {
         background: rgba(255, 255, 255, 0.2);
     }
 
-    &__social-icon {
-
-    }
+    &__social-icon {}
 
 
     &__accordeon {
@@ -1894,13 +1896,13 @@ body {
     }
 
     &__block {
-        margin: 0 33px 0 0;
+        margin: 0 34px 0 0;
         display: flex;
         flex-direction: column;
         width: 176.87px;
     }
 
-    &__underline{
+    &__underline {
         display: none;
         width: 324px;
         border-bottom: 1px white solid;
@@ -1909,13 +1911,13 @@ body {
 
     &__panel-heading {
         margin: 0 0 4.2px 0;
-        letter-spacing: 0.5px;
+        letter-spacing: 0.4px;
         font-family: 'Inter';
         font-weight: 500;
         font-size: 19.8983px;
     }
 
-    &__arrow{
+    &__arrow {
         display: none;
     }
 
@@ -1929,7 +1931,7 @@ body {
         font-family: 'Inter';
         font-weight: 400;
         font-size: 15.4764px;
-        line-height: 27px;
+        line-height: 26px;
     }
 
     &__new {
@@ -1944,14 +1946,15 @@ body {
 
 
 .underfooter {
-width: 100% ;
-margin: 26px 0 40px -40px;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-color: $color-white;
+    width: 100%;
+    margin: 26px 0 40px -40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: $color-white;
+
     &__copyright {
-        margin-left: -3px;
+        margin: 3px 0 0 -4px;
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
@@ -1960,13 +1963,13 @@ color: $color-white;
     }
 
     &__buttons {
-        margin: 0 55px 0 0;
+        margin: -3px 55px 0 0;
         display: inline-flex;
         align-items: center;
     }
 
     &__button {
-        letter-spacing: 0.5px;
+        letter-spacing: 0.3px;
         color: white;
         font-family: 'Inter';
         font-weight: 400;
@@ -1975,10 +1978,11 @@ color: $color-white;
     }
 
     &__line {
-        margin: 0 8px;
+        margin: 0 10px;
         height: 20px;
         border-left: #D9DBE1 solid 1px;
     }
 }
+
 //*******FOOTER*********(END)
 @import 'media';
