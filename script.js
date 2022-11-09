@@ -35,6 +35,18 @@ if (accordeonButtons) {
         })
     };
 }
+
+const typesButtons = document.querySelectorAll('.explore-types__button');
+if (typesButtons) {
+    for (let i = 0; i < typesButtons.length; i++) {
+        typesButtons[i].addEventListener("click", function (e) {
+            for (let j = 0; j < typesButtons.length; j++) {
+                typesButtons[j].classList.remove('active');
+            };
+            typesButtons[i].classList.add('active');
+        })
+    };
+}
 new Swiper('.swiper-container', {
     breakpoints: {
         1370: {

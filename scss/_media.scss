@@ -1035,7 +1035,7 @@
             position: relative;
             width: 135px;
             height: 36px;
-            border-radius: 15px 2px 15px 2px;
+            border-radius: 12px 3px 12px 3px;
             background: linear-gradient(92.23deg, #ffa6fb 21.43%, #dd9ef4 50%, #407ad5 117.04%);
             clip-path: polygon(0% 28%,
                     17% 0%,
@@ -1053,16 +1053,16 @@
             justify-content: center;
             align-items: center;
             position: absolute;
-            top: 2px;
-            left: 2px;
-            width: 132px;
-            height: 32px;
-            border-radius: 15px 2px 15px 2px;
+            top: 1px;
+            left: 1px;
+            width: 133px;
+            height: 34px;
+            border-radius: 12px 3px 12px 3px;
             background: linear-gradient(92.23deg, #406AFF -17%, #3BACE2 0%, #B936EE 50%, #FF56F6 80%);
-            clip-path: polygon(0% 28.5%,
+            clip-path: polygon(0% 28%,
                     17% 0%,
                     100% 0%,
-                    100% 72.5%,
+                    100% 73%,
                     85% 100%,
                     0% 100%);
 
@@ -1148,7 +1148,7 @@
         }
 
         &__img {
-            background: url(../img/cyber_angel-responsive.png);
+            background: url(img/cyber_angel-responsive.png);
             border-radius: 15px;
             margin: -10px 0 0 -75px;
             width: 335px;
@@ -1158,7 +1158,7 @@
 
         .card {
             // position: absolute;
-            background: url(../img/card_background_responsive.png);
+            background: url(img/card_background_responsive.png);
             width: 324px;
             height: 174.79px;
             bottom: -120px;
@@ -1817,7 +1817,7 @@
         justify-content: space-between;
         width: 316.8px;
         height: 89.75px;
-        background: url(../img/top-sellers-card-background-responsive.svg);
+        background: url(img/top-sellers-card-background-responsive.svg);
 
         &__container {
             display: flex;
@@ -1937,7 +1937,7 @@
         &__card {
             top: 123px;
             left: 21px;
-            background: url(../img/what-are-nft-card-responsive.png);
+            background: url(img/what-are-nft-card-responsive.png);
             width: 335.4px;
             height: 275px;
         }
@@ -2098,6 +2098,436 @@
 
         &__title-text {
             margin: 4px 0 0 5px;
+            font-family: 'Orbitron';
+            font-weight: 700;
+            font-size: 19.8983px;
+        }
+
+        &__logo {
+            margin: 0 0 0 0px;
+            width: 16.58px;
+            height: 26.81px;
+        }
+
+        &__text {
+            word-spacing: 0.5px;
+            width: 324px;
+            margin: 31px 0 0 0;
+            font-family: 'Inter';
+            font-weight: 400;
+            font-size: 15.4764px;
+            line-height: 27px;
+        }
+
+        &__buttons {
+            margin: 25px 0 0 0;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        &__button {
+            margin: 0 18px 0 0;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            width: 35px;
+            height: 35px;
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        &__social-icon {
+            margin-top: -1px;
+            height: 20px;
+            width: 20px;
+        }
+
+
+        &__accordeon {
+            margin: 3px 0 0 0px;
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        &__block {
+            margin: 0 0 16px 0;
+            display: flex;
+            flex-direction: column;
+            width: 176.87px;
+        }
+
+        &__underline {
+            margin: 0 0 17px 0;
+            display: block;
+            width: 324px;
+            border-bottom: 1px white solid;
+            opacity: 0.2;
+        }
+
+        &__panel-heading {
+            width: 324px;
+            display: flex;
+            white-space: nowrap;
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 0 0 0 0;
+            letter-spacing: 0.5px;
+            font-family: 'Inter';
+            font-weight: 500;
+            font-size: 19.8983px;
+
+        }
+
+        &__arrow {
+            display: flex;
+            margin: 5px 20px 0 0px;
+            transform: rotate(180deg);
+            transition: 0.3s;
+        }
+
+        &__arrow.active {
+            transform: rotate(360deg);
+            transition: 0.3s;
+        }
+
+        &__panel {
+            visibility: visible;
+            height: 200px;
+            transition: height 0.2s, visibility 0.1s;
+        }
+
+        &__panel.active {
+            visibility: hidden;
+            height: 0;
+            transition: height 0.2s, visibility 0.1s;
+        }
+
+
+        &__link {
+            color: #D9DBE1;
+            display: flex;
+            flex-direction: row;
+            margin: 15px 0 0 1px;
+            font-family: 'Inter';
+            font-weight: 400;
+            font-size: 15.4764px;
+            line-height: 27px;
+        }
+
+        &__new {
+            height: 10px;
+            margin: 0px 0 0 10px;
+            color: #2EC5CE;
+            font-family: 'Museo';
+            font-weight: 400;
+            font-size: 22.1092px;
+        }
+    }
+
+
+    .underfooter {
+        width: 100%;
+        margin: 10px 0 20px -5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: $color-white;
+
+        &__copyright {
+            letter-spacing: 0;
+            order: 2;
+            margin: 5px 0 0 0px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15.4764px;
+            line-height: 27px;
+        }
+
+        &__buttons {
+            margin: 40px 0 38.5px -10px;
+            display: inline-flex;
+            align-items: center;
+            order: 1;
+        }
+
+        &__button {
+            letter-spacing: 0px;
+        }
+
+        #privacy {
+            margin: 0 0 0 33.4px;
+        }
+
+        #sitemap {
+            display: none;
+        }
+
+        &__line {
+            display: none;
+        }
+    }
+
+    //*******FOOTER*********(END)
+}
+
+@media (max-width: 375px) {
+
+
+
+    //*******DISCOVER__ADAPTIVE*******
+    .discover {
+        margin-left: 55px;
+
+        &__companies {
+            display: flex;
+            justify-content: center;
+            margin-right: 100px;
+            max-width: 200px;
+            margin: 15px 10px 0px -60px;
+            order: 2;
+        }
+
+        &__company {
+            margin-bottom: 10px;
+        }
+
+        .binance {
+            width: 143.08px;
+            height: 28.62px;
+        }
+
+        .ethereum {
+            margin-right: 0;
+            width: 91.81px;
+            height: 28.62px;
+        }
+
+        .blockchain {
+            width: 188.38px;
+            height: 28.62px;
+        }
+
+        .bitmex {
+            width: 105.91px;
+            height: 16.92px;
+        }
+
+        &__img {
+            background: url(img/cyber_angel-responsive.png) center;
+            border-radius: 15px;
+            margin: -10px 0 0 -115px;
+            width: 300px;
+            height: 385.4px;
+            filter: drop-shadow(0px 4.42184px 4.42184px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4.42184px 4.42184px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4.42184px 4.42184px rgba(0, 0, 0, 0.25));
+        }
+
+        .card {
+            // position: absolute;
+            background: url(img/card-background-responsive-320.png);
+            width: 299px;
+            height: 174.79px;
+            bottom: -120px;
+            left: -114px;
+        }
+    }
+
+    //*******DISCOVER__ADAPTIVE****END
+
+
+    //*******TOP-NFT__ADAPTIVE********
+    .top-nft {
+        margin: 210px 0 0 0;
+        width: 100%;
+
+        &__img {
+            width: 270px;
+            height: 267px;
+        }
+
+        &__wrapper {
+            max-width: 300px;
+            display: flex;
+            min-width: 0;
+        }
+    }
+
+    .top-nft-card {
+        width: 270px;
+        height: 164px;
+    }
+
+    //*******TOP-NFT__ADAPTIVE*****END
+
+    //*******EXPLORE-TYPES__ADAPTIVE****
+    .explore-types {
+
+        &__button {
+            letter-spacing: 0px;
+            font-size: 10.9922px;
+            margin: 0 16px 16px 0;
+            color: $color-purple;
+            width: 130px;
+            height: 35px;
+            border: 2px solid;
+            border-image: linear-gradient(272.52deg, rgba(255, 166, 250, 0.3) 47.49%, rgba(60, 121, 213, 0.3) 98.81%) 1;
+        }
+
+        &__button.active {
+            font-size: 10.9922px;
+            width: 130px;
+            height: 35px;
+            border-radius: 2px;
+            border-image: none;
+        }
+
+        &__button.active:before {
+            width: 130px;
+            height: 35px;
+            border-radius: 2px;
+            padding: 1.5px;
+            border-image: none;
+        }
+    }
+
+    //*******EXPLORE-TYPES__ADAPTIVE**END
+
+    //*******EXPLORE_SOCIALS__ADAPTIVE****
+
+    .explore-socials {
+        &__title {
+            font-size: 18px;
+        }
+
+        &__view-all {
+            display: none;
+        }
+
+        &__main {
+            max-width: 300px;
+        }
+
+        &__wrapper {
+            max-width: 300px;
+            display: flex;
+            min-width: 0;
+        }
+
+    }
+
+    .explore-socials-card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 270px;
+        height: 391px;
+        border: 2.88px solid;
+        border-image: linear-gradient(145.77deg, rgba(255, 255, 255, 0.28) 0%, rgba(255, 255, 255, 0) 105.76%) 1;
+        background: transparent;
+        backdrop-filter: blur(60%);
+
+        &__background {
+            position: relative;
+            top: -1px;
+            left: -1px;
+            width: 265px;
+            height: 142.37px;
+        }
+
+        &__avatar {
+            width: 112.52px;
+            height: 112.52px;
+            position: absolute;
+            left: 80px;
+            bottom: 200px;
+        }
+
+    }
+
+    //*******EXPLORE_SOCIALS__ADAPTIVE**END
+
+    //********TOP-SELLERS*************
+    .top-sellers {}
+
+    .top-sellers-card {}
+
+    //********TOP-SELLERS**********(END)
+
+    //********WHAT-ARE-NFT*********
+    .what-are-nft {
+
+        &__card {
+            top: 123px;
+            left: 40px;
+            background: url(img/what-are-nft-card-responsive-320.png);
+            width: 297px;
+            height: 275px;
+        }
+
+    }
+
+    //********WHAT-ARE-NFT*********(END)
+
+    //*******SUBSCRIBE**********
+    .subscribe {
+
+        &__img-container {
+            margin: 40px 0 0 15px;
+            display: flex;
+            width: 326px;
+            height: 380px;
+            order: 2;
+        }
+
+        &__img-big {
+            display: none;
+        }
+
+        &__img-small {
+            display: flex;
+            width: 300px;
+        }
+
+    }
+
+    //*******SUBSCRIBE**********(END)
+
+
+
+    //*******FOOTER*************
+    .line-upperfooter {
+        margin: 108px 0 0 0px;
+        max-width: 324px;
+    }
+
+    .line-underfooter {
+        display: none;
+    }
+
+    .footer {
+        margin: 27px 0 0 15px;
+        color: $color-white;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+
+        &__description {
+            margin: 0 0 50px 0px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__title {
+            display: flex;
+            flex-direction: row;
+        }
+
+        &__title-text {
+            margin: 4px 0 0 10px;
             font-family: 'Orbitron';
             font-weight: 700;
             font-size: 19.8983px;
